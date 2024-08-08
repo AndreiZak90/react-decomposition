@@ -1,0 +1,76 @@
+.logo_search_img {
+  width: 110px;
+}
+.logo_serch_link {
+  width: 110px;
+}
+
+.searchBox_main {
+  display: flex;
+  align-items: center;
+}
+.links_search {
+  display: flex;
+}
+
+.link_item_search {
+  margin-right: 10px;
+}
+
+.searchMain {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputBox {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputBoxLink {
+  width: 100%;
+  max-width: 1000px;
+  padding-left: 15px;
+  height: 30px;
+  border: solid yellow 3px;
+  position: relative;
+}
+
+.inputBoxBtn {
+  height: 30px;
+  border: solid yellow 3px;
+  background: yellow;
+  position: relative;
+}
+
+.inputBoxBtn::after {
+  position: absolute;
+  content: "";
+  border: 16px solid transparent;
+  border-left: 20px solid yellow;
+  top: -3px;
+}
+
+.input_box {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.inputBoxImg {
+  width: 15px;
+
+  position: absolute;
+  top: 8px;
+  right: 15px;
+}
+
+.offers_text {
+  display: flex;
+}
+
+.offers_links {
+  color: grey;
+}

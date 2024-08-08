@@ -1,0 +1,66 @@
+.headers {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin: 20px;
+}
+
+.list_main {
+  margin-right: 15px;
+}
+
+.data_main {
+  opacity: 0.8;
+  font-size: 10px;
+}
+
+.list_items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.items_box {
+  display: flex;
+}
+
+.item_img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.upBox_main {
+  margin-left: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rightBox_img {
+  width: 150px;
+}
+
+.rightBox_title {
+  margin-top: 10px;
+}
+
+.rightBox_text {
+  margin-top: 10px;
+}
+
+.currency_box {
+  margin: 15px 0;
+  margin-left: 30px;
+  display: flex;
+  gap: 10px;
+  color: brown;
+}
+
+.currItem {
+  display: flex;
+  gap: 5px;
+}
+
+.parcent_item {
+  color: gray;
+}

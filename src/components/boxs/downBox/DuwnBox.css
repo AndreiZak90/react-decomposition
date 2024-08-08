@@ -1,0 +1,59 @@
+.duwnBox_main {
+  margin-left: 110px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.weather_box_item {
+  margin-top: 20px;
+  max-width: 250px;
+}
+
+.weather_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.weather_num {
+  font-size: 30px;
+}
+
+.weather_img {
+  width: 60px;
+}
+
+.weather_data {
+  font-size: 20px;
+}
+
+.weat_text_bold {
+  font-weight: 500;
+}
+
+.weat_text {
+  display: flex;
+}
+
+.duwnBox_main_left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.maps_link {
+  margin-top: 15px;
+}
+
+.item_tv {
+  display: flex;
+  gap: 10px;
+}
+
+.item_prog {
+  color: gray;
+}
+
+.item_img_er {
+  width: 15px;
+}
